@@ -1,38 +1,60 @@
-.App {
+.overall{
+  margin: 20px;
+}
+
+.button-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.city-button{
+  margin-top: 15px;
+  border-style: solid;
+  font-size: 5vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.city-input{
+  font-size: 5vw;
+}
+
+.active-city-button{
+  margin-top: 15px;
+  font-weight: bolder;
+  background-color: darkgray;
+  border-color: darkgray;
+  border-style: solid;
+  font-size: 5vw;
+}
+
+.add-section{
+  margin-top: 20px;
+}
+
+.add-button{
+  margin-left: 5px;
+  font-size: 5vw;
+}
+
+.temp-text{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  font-weight: bold;
+  font-size: 6vw;
+}
+
+.time-temp-con{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 15px;
+}
+
+.time-temp-data{
+  margin-top: 20px;
+  font-size: 5vw;
 }
