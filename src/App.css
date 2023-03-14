@@ -38,6 +38,25 @@
   font-size: 5vw;
 }
 
+.login-section{
+  margin-top: 20px;
+}
+
+.display-name{
+  font-size: 7vw;
+  text-decoration: none;
+}
+
+.auth-input{
+  font-size: 5vw;
+  margin-top: 3px;
+}
+
+.login-button{
+  margin-left: 5px;
+  font-size: 5vw;
+}
+
 .temp-text{
   margin-top: 20px;
   display: grid;
